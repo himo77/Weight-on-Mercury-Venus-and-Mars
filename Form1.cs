@@ -27,6 +27,7 @@ namespace Weight_on_Mercury__Venus__and_Mars
         {
             double earthWeight = Convert.ToDouble(txtEarthWeight.Text);
 
+            // Mercury weight
             double mercuryWeight = earthWeight * WeightConversionFactors["Mercury"];
             txtMercuryWeight.Text = mercuryWeight.ToString();
 
